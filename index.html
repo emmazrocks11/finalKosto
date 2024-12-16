@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="eng-ca">
+  <head>
+    <meta charset="utc-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Racing+Sans+One&family=Road+Rage&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Racing+Sans+One&family=Road+Rage&display=swap" rel="stylesheet">
+
+    <style>
+      #footer,
+      #nav,
+      #name,
+      .section1,
+      .section2,
+      figure,
+      figcaption {
+        display: block;
+      }
+
+      h1 {
+        font-family: "Racing Sans One", sans-serif;
+        font-size: 80px;
+      }
+      
+      h2 {
+        font-family: "Didact Gothic", sans-serif;
+        font-size: 30px;
+      }
+
+      h3 {
+        font-family: "Didact Gothic", sans-serif;
+        font-size: 22px;
+      }
+      
+      body {
+        color: #07090d;
+        background-color: #f1f1f1;
+        background-position: center;
+        font-family: "Didact Gothic", sans-serif;
+        font-size: 18px;
+        line-height: 1.4em;
+        margin: 0px;
+      }
+      
+      .section1 {
+        padding: 30px 0px;
+        text-align: left;
+      }
+      
+      .section1 img {
+        float: left;
+        height: 500px; 
+        padding-right: 40px;
+      }
+      
+      .section1 ul {
+        padding-left: 0px;
+        margin-top: 0px;
+        list-style-type: none;
+        line-height: 2em;
+      }
+      
+      .section1 ul, p {
+        max-width: 700px;
+      }
+      
+      .section1 h2 {
+       color: #273043; 
+      }
+      
+      .section2 {
+        text-align: left;
+        background-color: #273043;
+        height: 700px;
+        position: relative;
+      }
+      
+      .section2 h2 {
+        color: #f1f1f1;
+        position: absolute;
+        margin: 35px 40px;
+      }
+      
+      .flex-container {
+        display: flex;
+        justify-content: center;
+      }
+      
+      iframe.left {
+        border: none;
+        padding-top: 90px; 
+        padding-left: 40px;
+        padding-right: 20px;
+        height: 342px;
+        width: 640px;
+      }
+      
+      iframe.right {
+        border: none;
+        padding-top: 90px; 
+        padding-right: 40px;
+        padding-left: 20px;
+        height: 342px;
+        width: 640px;
+      }
+      
+      h3.left {
+        color: #f1f1f1;
+        margin: 0px;
+        padding-top: 35px; 
+        padding-left: 40px;
+        width: 640px;
+        text-decoration-line: underline;
+      }
+      
+      h3.right {
+        color: #f1f1f1;
+        margin: 0px;
+        padding-top: 35px;
+        width: 640px;
+        text-decoration-line: underline;
+      }
+      
+      ul.left {
+        color: #f1f1f1;
+        padding-left: 40px;
+        width: 640px;
+        list-style-type: none;
+        line-height: 1.4em;
+        margin-top: 5px;
+      }
+      
+      ul.right {
+        color: #f1f1f1;
+        padding-left: 0px;
+        width: 640px;
+        list-style-type: none;
+        line-height: 1.4em;
+        margin-top: 5px;
+      }
+      
+      .section2 b {
+        color: #9197ae;
+      }
+      
+      .section3 {
+        color: #f1f1f1;
+        text-align: center;
+        min-height: 335px;
+        position: relative;
+      }
+      
+      .section3 h2 {
+        color: #dd0426;
+        position: absolute;
+        margin: 50px 40px; 
+      }
+      
+      div.bluebox {
+        background-color: #9197ae;
+        min-height: 70px;
+        width: 640px;
+      }
+      
+      div.top {
+        margin-top: 110px;
+      }
+      
+      div.rowAfter {
+        margin-top: 30px;
+      }
+      
+      div.left3 {
+        margin-left: 40px;
+        margin-right: 0px;
+      }
+      
+      div.farRight {
+        margin-left: 40px;
+        margin-right: 40px;
+      }
+      
+      .bluebox p {
+        margin: 10px;
+      }
+      
+      .section4 {
+        text-align: left;
+      }
+      
+      .section4 h2 {
+        color: #dd0426;
+        margin: 50px 40px;
+      }
+      
+      table, td, th {
+        padding: 10px;
+        border: 1px solid;
+      }
+
+      table {
+        margin-left: 40px;
+        width: 50%;
+        border-collapse: collapse;
+      }
+      
+      td.gold {
+        background-color: gold;
+      }
+      
+      td.silver {
+        background-color: #c0c0c0;
+      }
+      
+      td.bronze {
+        background-color: #ce8946;
+      }
+      
+      iframe {
+        padding-left: 40px;
+        height: 342px;
+        width: 100%;
+      }
+      
+      .bottomVideo {
+        padding-top: 40px;
+      }
+      
+      #name {
+        text-align: center;
+      }
+      
+      #name h1 {
+        margin-bottom: 50px;
+        color: #800a12;
+      }
+      
+      #name h2 {
+        color: #9197ae
+      } 
+      
+      #nav {
+        height: 100px;
+      }
+      
+      #nav img {
+        margin: 0px;
+        height: 30px;
+        padding: 35px 40px;
+      }
+      
+      #nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding-right: 20;
+        overflow: hidden;
+        float: right;
+      }
+      
+      #nav ul li {
+        float: left;
+        padding: 35px 20px;
+      }
+      
+      #nav ul li a {
+        display: block;
+        color: #07090d;
+        text-align: center;
+        padding: 5px;
+        text-decoration: none;
+      }
+      
+      #nav ul li a:hover {
+        color: #9197ae;
+      }
+      
+      #nav ul li a:active {
+        color: #dd0426;
+      }
+
+      #footer {
+        clear: both;
+        color: #ffffff;
+        background-color: #aeaca8;
+        height: 30px;
+        font-size: 80%;
+        padding: 7px 0px 0px 20px;
+      }
+    </style>
+
+  </head>
+  <body>
+    <div id="nav">
+      <img src="triple.png" alt="Triple A Logo">
+      <ul>
+        <li><a href="index.html">About</a></li>
+        <li><a href="about.html">Trusova</a></li>
+        <li><a href="members.html">Kostornia</a></li>
+        <li><a href="connect.html">Scherbakova</a></li>
+      </ul>
+    </div>
+    <div id="name">
+      <h1>Anna Shcherbakova</h1>
+      <h2>"The Olympic Champion"</h2>
+    </div>
+    <div class="section1">
+      <div class="flex-container">
+        <img src="annaShch.jpg" alt="Anna Shcherbakova">
+        <div>
+          <ul>
+            <li><b>Full Name:</b> Anna Stanislavovna Shcherbakova</li>
+            <li><b>Date of Birth:</b> March 28, 2004 (age 20)</li>
+            <li><b>Birthplace:</b> Moscow, Russia</li>
+            <li><b>Hometown:</b> Moscow, Russia</li>
+            <li><b>Country:</b> Russia</li>
+            <li><b>Skating Club:</b> 	Sambo 70 (Khrustalny)</li>
+            <li><b>Coaches: </b> 			
+Eteri Tutberidze, Sergei Dudakov, Daniil Gleikhengauz</li>
+          </ul>
+          <hr>
+           <h2>Biography</h2>
+          <p>
+            She is the gold medalist of the 2022 Winter Olympic champion in women's singles, the 2021 World champion, the 2022 European champion, and a three-time Russian national champion (2019–2021).
+            
+            Along with the rest of TripleA, Shcherbakova set world records in women's figure skating with quadruple jumps. She is the only skater out of TripleA that has never left their original coach—Eteri Tutberidze.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="section2">
+      <h2>Latest Programs</h2>
+      <div class="flex-container">
+        <iframe class="left" width="679" height="382" src="https://www.youtube.com/embed/IG02kYhYgtQ" title="Anna Shcherbakova&#39;s #Beijing2022 short program" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>
+        <iframe class="right" width="679" height="382" src="https://www.youtube.com/embed/JHQvibLdY8Q" title="Anna Shcherbakova&#39;s #Beijing2022 free program!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>
+      </div>
+      <div class="flex-container">
+        <h3 class="left">Short Program 2021-22</h3>
+        <h3 class="right">Long Program 2021-22</h3>
+      </div>
+      <div class="flex-container">
+        <ul class="left">
+          <li><b>Music: </b>The Songs of Distant Earth
+(composed by Kirill Richter)</li>
+          <li><b>Coaches: </b>Eteri Tutberidze, Sergei Dudakov, Daniil Gleikhengauz</li>
+          <li><b>Choreographer: </b>Daniil Gleikhengauz</li>
+        </ul>
+        <ul class="right">
+          <li><b>Music: </b>Ruska
+(composed by Apocalyptica),
+Waltz from The Master and Margarita
+(composed by Igor Kornelyuk),
+Requiem
+(composed by Wolfgang Amadeus Mozart,
+performed by David Garrett)</li>
+          <li><b>Coaches: </b>Eteri Tutberidze, Sergei Dudakov, Daniil Gleikhengauz</li>
+          <li><b>Choreographer: </b>Daniil Gleikhengauz</li>
+        </ul>
+      </div>
+    </div>
+    <div class="section3">
+      <h2>Records and Notable Acheivements</h2>
+      <div class="flex-container">
+        <div class="bluebox left3 top">
+          <p class="center">
+            First woman skater to land a quad Lutz
+          </p>
+        </div>
+        <div class="bluebox left3 top">
+          <p class="center">
+            Second senior woman skater after Elizabet Tursynbaeva to land a quad jump internationally
+          </p>
+        </div>
+        <div class="bluebox left3 top">
+          <p class="center">
+            First woman skater to land two quad Lutz jumps in one program
+          </p>
+        </div>
+        <div class="bluebox farRight top">
+          <p class="center">
+            First senior woman skater to land two quad flip jumps in one program
+          </p>
+        </div>
+      </div>
+      <div class="flex-container">
+        <div class="bluebox left3 rowAfter">
+          <p class="center">
+            First woman to land a quad flip and a triple jump combination in competition
+          </p>
+        </div>
+        <div class="bluebox left3 rowAfter">
+          <p class="center">First woman to land a quad Lutz and a triple jump combination in an international competition
+          </p>
+        </div>
+        <div class="bluebox left3 rowAfter">
+          <p class="center">
+            First woman skater to land a quad Lutz in senior international competition
+          </p>
+        </div>
+        <div class="bluebox farRight rowAfter">
+          <p class="center">
+            First Olympic champion in women's single skating with quad jumps
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="section4">
+      <h2>Competitive Highlights
+      </h2>
+      <div class="flex-container">
+        <table>
+          <tr>
+            <th>Competition</th>
+            <th>Rank</th>
+          </tr>
+          <tr>
+            <td>Winter Olympics 2022</td>
+            <td class="gold">1st</td>
+          </tr>
+          <tr>
+            <td>European Championships 2022</td>
+            <td class="gold">1st</td>
+          </tr>
+          <tr>
+            <td>Russian Nationals 2022</td>
+            <td class="silver">2nd</td>
+          </tr>
+          <tr>
+            <td>World Championships 2021</td>
+            <td class="gold">1st</td>
+          </tr>
+          <tr>
+            <td>Russian Nationals 2021</td>
+            <td class="gold">1st</td>
+          </tr>
+          <tr>
+            <td>European Championships 2020</td>
+            <td class="silver">2nd</td>
+          </tr>
+          <tr>
+            <td>Grand Prix Final 2020</td>
+            <td class="silver">2nd</td>
+          </tr>
+          <tr>
+            <td>Russian Nationals 2020</td>
+            <td class="gold">1st</td>
+          </tr>
+          <tr>
+            <td>Junior World Championships 2019</td>
+            <td class="silver">2nd</td>
+          </tr>
+          <tr>
+            <td>Russian Nationals 2019</td>
+            <td class="gold">1st</td>
+          </tr>
+          <tr>
+            <td>Russian Junior Nationals 2019</td>
+            <td class="bronze">3rd</td>
+          </tr>
+          <tr>
+            <td>Russian Cup Final 2018</td>
+            <td class="gold">1st</td>
+          </tr>
+        </table>
+        <div>
+          <iframe width="679" height="382" src="https://www.youtube.com/embed/ZZDW8VoHhm8" title="Anna Shcherbakova | Free Skate | Figure Skating World Championships 2021 | BBC English Commentary" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+          </iframe>
+          <iframe class="bottomVideo" width="679" height="382" src="https://www.youtube.com/embed/It7yGtZ02cI" title="Anna Shcherbakova 2021 World Champion, Championship Winning Flawless Performance, Short Program" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
